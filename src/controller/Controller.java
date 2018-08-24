@@ -35,7 +35,7 @@ public class Controller {
 		}
 		if (so.contains("Linux")) {
 
-			String comando = "TASKLIST /FO TABLE";
+			String comando = "ps aux";
 			try {
 				Process proc = Runtime.getRuntime().exec(comando);
 				InputStream fluxo = proc.getInputStream();
