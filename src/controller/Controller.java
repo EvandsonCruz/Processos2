@@ -92,15 +92,15 @@ public class Controller {
 				case 9:
 					break;
 				default:
-					JOptionPane.showMessageDialog(null, "Opc inválida");
+					JOptionPane.showMessageDialog(null, "Opc invï¿½lida");
 					break;
 				}
 			} while (opc != 9);
 		}
 		
 		if (so.contains("Linux")) {
-			String cmdPid = "TASKKILL /PID ";
-			String cmdNome = "TASKKILL /IM ";
+			String cmdPid = "kill -9 ";
+			String cmdNome = "killall ";
 			String nome;
 			int pid;
 			int opc = 0;
@@ -134,7 +134,7 @@ public class Controller {
 				case 9:
 					break;
 				default:
-					JOptionPane.showMessageDialog(null, "Opc inválida");
+					JOptionPane.showMessageDialog(null, "Opc invï¿½lida");
 					break;
 				}
 			} while (opc != 9);
