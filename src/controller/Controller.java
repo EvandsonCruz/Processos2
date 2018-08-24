@@ -92,12 +92,12 @@ public class Controller {
 				case 9:
 					break;
 				default:
-					JOptionPane.showMessageDialog(null, "Opc inv�lida");
+					JOptionPane.showMessageDialog(null, "Opc invalida");
 					break;
 				}
 			} while (opc != 9);
 		}
-		
+
 		if (so.contains("Linux")) {
 			String cmdPid = "kill -9 ";
 			String cmdNome = "killall ";
@@ -134,7 +134,7 @@ public class Controller {
 				case 9:
 					break;
 				default:
-					JOptionPane.showMessageDialog(null, "Opc inv�lida");
+					JOptionPane.showMessageDialog(null, "Opc invalida");
 					break;
 				}
 			} while (opc != 9);
